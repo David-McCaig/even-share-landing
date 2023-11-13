@@ -56,11 +56,11 @@ export default function Header() {
               <li>
                 <Link
                   href="/signup"
-                  className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3"
+                  className="btn-sm text-white bg-[#0d9488] hover:bg-[#14b8a6] ml-3"
                 >
                   <span>Sign up</span>
                   <svg
-                    className="w-3 h-3 fill-current text-gray-400 shrink-0 ml-2 -mr-1"
+                    className="w-3 h-3 fill-current text-white shrink-0 ml-2 -mr-1"
                     viewBox="0 0 12 12"
                     xmlns="http://www.w3.org/2000/svg"
                   >
