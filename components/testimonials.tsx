@@ -10,9 +10,9 @@ export default function Testimonials() {
         <svg width="1760" height="518" viewBox="0 0 1760 518" xmlns="http://www.w3.org/2000/svg">
           <defs>
             <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-02">
-              <stop stopColor="#FFF" offset="0%" />
-              <stop stopColor="#EAEAEA" offset="77.402%" />
-              <stop stopColor="#DFDFDF" offset="100%" />
+              <stop stopColor="#D3EEF4" offset="0%" />
+              <stop stopColor="#F1EEC8" offset="77.402%" />
+              <stop stopColor="#F1EEC8" offset="100%" />
             </linearGradient>
           </defs>
           <g transform="translate(0 -3)" fill="url(#illustration-02)" fillRule="evenodd">
@@ -51,7 +51,7 @@ export default function Testimonials() {
                   <Image className="relative rounded-full" src={TestimonialImage} width={96} height={96} alt="Testimonial 01" />
                 </div>
                 <blockquote className="text-xl font-medium mb-4">
-                  "I never fight with roommates over bills because of this genius expense-splitting app"
+                  "I never fight with roommates over bills because of this genius expense splitting app"
                 </blockquote>
                 <cite className="block font-bold text-lg not-italic mb-1">Darya Finger</cite>
                 <div className="text-gray-600">
