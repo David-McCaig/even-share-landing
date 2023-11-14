@@ -33,7 +33,14 @@ export default function ModalVideo({
       {/* Video thumbnail */}
       <div>
         <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
-          <div className="flex flex-col justify-center">
+      
+          <Image
+            src="/images/Screenshot1.png"
+            width={800}
+            height={800}
+            alt="EvenShare Logo"
+          />
+          {/* <div className="flex flex-col justify-center">
             <Image src={thumb} width={thumbWidth} height={thumbHeight} alt={thumbAlt} />
             <svg className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="768" height="432" viewBox="0 0 768 432" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
               <defs>
@@ -70,7 +77,7 @@ export default function ModalVideo({
               <path d="M10 17l6-5-6-5z" />
             </svg>
             <span className="ml-3">Watch the full video (2 min)</span>
-          </button>
+          </button> */}
         </div>
       </div>
       {/* End: Video thumbnail */}
