@@ -9,10 +9,10 @@ export default function Hero() {
       <div className="absolute left-1/2 transform -translate-x-1/2 bottom-0 pointer-events-none -z-1" aria-hidden="true">
         <svg width="1360" height="578" viewBox="0 0 1360 578" xmlns="http://www.w3.org/2000/svg">
           <defs>
-            <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-01">
-              <stop stopColor="#FFF" offset="0%" />
-              <stop stopColor="#EAEAEA" offset="77.402%" />
-              <stop stopColor="#DFDFDF" offset="100%" />
+            <linearGradient className='shadow-2xl' x1="50%" y1="0%" x2="50%" y2="100%" id="illustration-01">
+              <stop stopColor="#D3EEF4" offset="0%" />
+              <stop stopColor="#F1EEC8" offset="77.402%" />
+              <stop stopColor="#F1EEC8" offset="100%" />
             </linearGradient>
           </defs>
           <g fill="url(#illustration-01)" fillRule="evenodd">
@@ -31,7 +31,7 @@ export default function Hero() {
           <div className="text-center pb-12 md:pb-16">
             <h1 className="text-5xl md:text-6xl font-extrabold leading-tighter tracking-tighter mb-4" data-aos="zoom-y-out">Stress less when it comes to bills <span className="bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-[#14b8a6]">EvenShare</span></h1>
             <div className="max-w-3xl mx-auto">
-              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Simplify Splitting Bills: Evenshare - Your Stress-Free Solution for Shared Expenses!</p>
+              <p className="text-xl text-gray-600 mb-8" data-aos="zoom-y-out" data-aos-delay="150">Simplify Splitting Bills with Evenshare. Your Stress-Free Solution for Shared Expenses!</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn text-white bg-gradient-to-r from-[#14b8a6] to-blue-500 hover:bg-blue-700 w-full mb-4 sm:w-auto sm:mb-0" href="/signup">Start free trial</a>

@@ -34,12 +34,8 @@ export default function ModalVideo({
       <div>
         <div className="relative flex justify-center mb-8" data-aos="zoom-y-out" data-aos-delay="450">
       
-          <Image
-            src="/images/Screenshot1.png"
-            width={800}
-            height={800}
-            alt="EvenShare Logo"
-          />
+        <Image className='bg-gradient-to-t rounded-lg shadow-xl ' src="/images/phones.png" width={800} height={800} alt='phones'/>
+
           {/* <div className="flex flex-col justify-center">
             <Image src={thumb} width={thumbWidth} height={thumbHeight} alt={thumbAlt} />
             <svg className="absolute inset-0 max-w-full mx-auto md:max-w-none h-auto" width="768" height="432" viewBox="0 0 768 432" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
