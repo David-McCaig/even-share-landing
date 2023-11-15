@@ -1,10 +1,10 @@
 {
   "hosting": {
-    "public": "out",  
+    "public": ".next",
     "rewrites": [
       {
         "source": "/app/**",
-        "destination": "https://split-bill-427e2.web.app/"
+        "destination": "/app.html"
       },
       {
         "source": "**",
