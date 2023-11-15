@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "out",  
+    "rewrites": [
+      {
+        "source": "/app/**",
+        "destination": "https://split-bill-427e2.web.app/"
+      },
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
+
