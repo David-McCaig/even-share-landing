@@ -1,16 +1,14 @@
 {
   "hosting": {
-    "public": ".next",
-    "rewrites": [
-      {
-        "source": "/app/**",
-        "destination": "/app.html"
-      },
-      {
-        "source": "**",
-        "destination": "/index.html"
-      }
-    ]
+    "site": "https-split-bill-427e2",
+    "source": "hosting",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "frameworksBackend": {
+      "region": "asia-east1"
+    }
   }
 }
-
